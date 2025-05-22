@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的作品集</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>我的作品集</h1>
+    </header>
+    
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="profile-section">
+                <img src="attached_assets/profile.jpg" alt="個人照片" class="profile-photo">
+                <h2>關於我</h2>
+            <p>大家好，我是胡源芳，來自台南。我是一位熱愛人工智慧與程式開發的學生，專注於影像辨識與人機互動領域。在學習過程中，我致力於將 AI 技術應用在實際問題上，創造有意義的解決方案。</p>
+            
+            <h3>學歷</h3>
+            <ul>
+                <li>台灣科技大學 企業管理系</li>
+                <li>國立台南第二高級中學</li>
+            </ul>
+        </div>
+    </section>
+    
+    <main>
+        <section id="project1" class="project">
+            <h2>課堂專題實作：AI互動感知系統</h2>
+            <div class="project-content">
+                <div class="project-images">
+                    <div class="image-grid">
+                        <img src="attached_assets/B11115009_pose2" alt="姿勢骨架追蹤" class="project-img">
+                        <img src="attached_assets/B11115009_gesture1" alt="手勢回饋示意圖" class="project-img">
+                        <img src="attached_assets/B11115009_gesture3" alt="物件辨識結果" class="project-img">
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>專案概述</h3>
+                    <p>這是我在學期間的課堂作業成果，目標是熟悉 AI 姿勢與影像辨識技術。作品融合 Mediapipe、OpenCV 等工具，實作即時姿勢偵測、手勢分析、分數回饋與物件辨識等功能。</p>
+
+                    <h3>功能特色</h3>
+                    <ul>
+                        <li>全身姿勢與骨架追蹤</li>
+                        <li>手勢評分與即時語音提示</li>
+                        <li>物件偵測與辨識</li>
+                    </ul>
+
+                    <h3>技術應用</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Mediapipe Holistic</li>
+                        <li>Teachable Machine</li>
+                        <li>OpenCV</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="project2" class="project">
+            <h2>期末專題：AI姿勢矯正教練</h2>
+            <div class="project-content">
+                <div class="project-images">
+                    <div class="image-grid">
+                        <img src="attached_assets/期末1.jpg" alt="不良坐姿示範" class="project-img">
+                        <img src="attached_assets/期末2.jpg" alt="正確坐姿示範" class="project-img">
+                        <img src="attached_assets/期末3.jpg" alt="坐姿評分系統" class="project-img">
+                        <img src="attached_assets/期末4.jpg" alt="姿勢比較分析" class="project-img">
+                    </div>
+                </div>
+                <div class="project-description">
+                    <h3>專案概述</h3>
+                    <p>現代人久坐容易姿勢不良，導致痠痛與慢性傷害。這個專案開發了一套基於 Mediapipe 的 AI 姿勢矯正系統，能透過側面攝影即時分析坐姿，並以視覺與語音方式給予回饋，幫助使用者改善姿勢習慣。</p>
+
+                    <h3>系統功能</h3>
+                    <ul>
+                        <li>側面坐姿分析：偵測耳、肩、臀關鍵點，計算脊椎角度與偏移</li>
+                        <li>即時提示機制：姿勢不良時每3秒播放提醒音</li>
+                        <li>正向回饋設計：坐姿改善時顯示鼓勵訊息並播放正向音效</li>
+                        <li>姿勢評分系統：即時顯示姿勢分數，協助追蹤與評估</li>
+                        <li>靜態圖像分析：支援批次坐姿評估，方便教學與資料分析</li>
+                    </ul>
+
+                    <h3>技術應用</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Mediapipe Pose</li>
+                        <li>OpenCV</li>
+                        <li>語音提示模組</li>
+                    </ul>
+
+                    <h3>資料來源</h3>
+                    <ul>
+                        <li>Google Mediapipe</li>
+                        <li>WHO 姿勢健康報告</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
